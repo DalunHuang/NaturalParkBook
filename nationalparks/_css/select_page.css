@@ -1,0 +1,82 @@
+#select_page {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(27, 27, 27, 0.8);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 32px;
+    z-index: 2;
+}
+
+.row {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+    margin-top: 200px;
+    z-index: 0;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    /* transition: 2s; */
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.column img:hover{
+    /* box-shadow: 4px 4px 4px 4px rgba(31, 31, 31, 0.207); */
+    border: 8px solid rgb(45, 45, 45);
+}
+
+/* Style the buttons */
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+    font-weight: 500;
+    border: 2px solid aliceblue;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn2 {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+    font-weight: 500;
+    border: 2px solid aliceblue;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: rgba(32, 32, 32, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+/* .btn.active {
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+} */
